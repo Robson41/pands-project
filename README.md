@@ -1,40 +1,26 @@
 # pands-project
 Project Explanantion:
-'''BEGIN analysis.py
+Project Summary
 
-1. IMPORT necessary libraries:
-    - pandas for data manipulation
-    - matplotlib.pyplot for plotting
-    - os for file handling
+The project involves analysing the Iris dataset using Python. The main tasks include:
 
-2. LOAD the Iris dataset:
-    - Use pandas to read the dataset from a CSV file
+Data Loading: The project begins by importing necessary libraries—pandas for data manipulation, matplotlib.pyplot for plotting, and os for file handling. It then loads the Iris dataset from a CSV file.
 
-3. CREATE a directory (if not already exists) to store output files:
-    - "output/summary.txt"
-    - "output/histograms/"
-    - "output/scatter_plots/"
+Directory Creation: It checks for the existence of specific output directories and creates them if they do not already exist. These directories include:
+        output/summary.txt for storing summary statistics,
+        output/histograms/ for saving histogram plots,
+        output/scatter_plots/ for saving scatter plots.
 
-4. GENERATE a summary of each variable:
-    - Use pandas .describe() function to get mean, std, min, max, etc.
-    - Save this summary to a text file
+Data Summarisation: The project generates a summary of each variable in the dataset using the pandas .describe() function, capturing statistics like mean, standard deviation, minimum, and maximum values. This summary is saved to a text file.
 
-5. FOR each numeric variable in the dataset:
-    - Plot a histogram using matplotlib/seaborn
-    - Save each histogram as a PNG in "output/histograms/"
+Histogram Plots: For each numeric variable, the project creates histograms to visualise the distribution of values. Each histogram is saved as a PNG file in the specified directory.
 
-6. FOR each unique pair of numeric variables:
-    - Create a scatter plot showing the relationship between the pair
-    - Colour-code the points by species (target class)
-    - Save each scatter plot as a PNG in "output/scatter_plots/"
+Scatter Plots: It generates scatter plots for each unique pair of numeric variables, illustrating the relationships between them. Points are colour-coded based on the species of the iris flower, and these plots are saved as PNG files as well.
 
-7. (Optional but recommended) DO any additional analysis:
-    - Example: compute correlation matrix and save as heatmap
-    - Example: group data by species and calculate group statistics
 
-8. PRINT or log a message indicating that all analysis is complete
+Completion Notification: Finally, the script prints or logs a message indicating that the analysis is complete.
 
-END analysis.py'''
+Overall, this project aims to provide a comprehensive analysis and visualisation of the Iris dataset, facilitating insights into the relationships and distributions of the data.
 
 
 Project Sources:
