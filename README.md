@@ -1,5 +1,5 @@
 # pands-project
-Project Expllanantion:
+Project Explanantion:
 '''BEGIN analysis.py
 
 1. IMPORT necessary libraries:
