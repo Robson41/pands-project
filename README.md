@@ -28,11 +28,12 @@ http://www.lac.inpe.br/~rafael.santos/Docs/CAP394/WholeStory-Iris.html
 https://en.wikipedia.org/wiki/Iris_flower_data_set#Data_set
 http://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data
 
+Other Sites visited:
+https://www.codecademy.com
 
-
-
-
-
-
-
-
+AI prompts:
+- I received assistance from an AI tool(ChatGPT) while working on my project.
+- Although I saved some of the AI prompts, unfortunately, I did not save all the specific prompts and interactions, as I did not see this part of the requirement initially, but the AI helped guide me through various coding and pseudocode challenges related to processing the Iris dataset, and some of the prompts were to assist with specific analysis of the dataset and to assist with code comments for some of the code AI assisted on and related pseudocode, and some of the prompts included were;
+- Can you please provide comments for this code?
+- Can you please create pseudocode based on the below code and comments?
+  
